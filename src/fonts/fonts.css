@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Akrobat-Regular';
+    src: url('./fonts/Akrobat-Regular.otf');
+}
+@font-face {
+    font-family: 'Alethiapro-Regular';
+    src: url('./fonts/alethiapro-regular.otf');
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('./fonts/Inter-Regular.ttf');
+}
+@font-face {
+    font-family: 'Jost-Medium';
+    src: url('./fonts/Jost-Medium.ttf');
+}
+@font-face {
+    font-family: 'Lato-Medium';
+    src: url('./fonts/Lato-Medium.ttf');
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('./fonts/Lato-Light.ttf');
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./fonts/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: 'Manrope-Regular';
+    src: url('./fonts/Manrope-Regular.ttf');
+}
+
+.fad{
+    font-family: 'FA-duotone';
+    font-weight: 900;
+    font-style: normal;
+}
+.fab{
+    font-family: 'FA-brands';
+    font-weight: 400;
+    font-style: normal;
+}
+.fa, .fas, .far, .fal{
+    font-family:'FA';
+    font-style: normal;
+
+}

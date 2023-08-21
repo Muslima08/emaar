@@ -1,0 +1,189 @@
+.body_h{
+    color: rgba(7, 28, 53, 1);
+    font-size: calc(1.7vw + 28.3px);
+    font-family: 'Alethiapro-Regular';
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: calc(1.6vw + 29px);
+}
+.container {
+    max-width: 1445px;
+    width: 100%;
+    margin: 0 auto;
+}
+.project_first, .project_firstd{
+    border: 1px solid rgba(7, 28, 53, 0.1);
+    padding: 20px;
+    width: 382px;
+    margin: 15px;
+}
+.img_title{
+color: #071C35;
+font-size: calc(0.2vw + 20.9px);
+font-family: 'Alethiapro-Regular';
+font-style: normal;
+text-transform: uppercase;
+margin-bottom: 5px;
+}
+.img_texts{
+    color: #071C35;
+font-size: calc(0.18vw + 13.2px);
+font-family: 'Lato-Regular';
+line-height: normal;
+text-transform: uppercase;
+margin: 0;
+}
+.text_span{
+    color: #071C35;
+font-size: calc(0.18vw + 17.3px);
+font-style: normal;
+line-height: normal;
+text-transform: uppercase;
+}
+.image_firstd{
+    width: calc(3.7vw + 285.9px);
+}
+.img_text{
+    background: rgba(255, 255, 255, 0.85);
+backdrop-filter: blur(7.5px);
+bottom: 20px;
+padding: 22px 15px 22px 15px;
+width: calc(3.7vw + 285.9px);
+}
+/* .map_text {
+    top: 260px;
+} */
+.project_all{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 100px; */
+}
+.map_all{
+    margin-top: calc(-12.2vw + 264.5px);
+}
+.maps_location {
+    bottom: calc(6.6vw + 6px);
+    left: calc(29.6vw - 107.2px);
+flex-direction: column;
+align-items: center;
+display: none;
+border: 1px solid rgba(0, 0, 0, 0.05);
+background: #FFF;
+box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.03);
+height: calc(3.7vw + 145.9px) !important;
+width: calc(3.7vw + 145.9px) !important;
+}
+.img{
+    width: calc(3.7vw + 145.9px) !important;
+}
+
+.maplocationv  {
+bottom: calc(7.9vw - 14.9px);
+left: calc(29.5vw - 105.9px); 
+
+display: flex;
+flex-direction: column;
+align-items: center;
+width: calc(3.7vw + 145.9px) !important;
+height: calc(3.7vw + 145.9px) !important;
+justify-content: end;
+}
+.maplocationsec {
+    bottom: calc(26.7vw - 5.3px);
+    left: calc(24.4vw + 68.4px);
+    /* bottom: 95px;
+    left: 160px; */
+display: flex;
+flex-direction: column;
+align-items: center;
+width: calc(3.7vw + 145.9px) !important;
+height: calc(3.7vw + 145.9px) !important;
+justify-content: end;
+}
+.image_first {
+    width: calc(86.3vw + 44px);
+}
+.map_title{
+    color: #071C35;
+    font-family: 'Alethiapro-Regular';
+    font-size: calc(1.03vw + 29px);
+    font-style: normal;
+    text-transform: uppercase;
+    width: calc(11.4vw + 292px);
+    top: calc(26.2vw - 298.5px);
+    }
+.maps_loctext{
+color: #071C35;
+text-align: center;
+font-size: calc(0.18vw + 13.2px);
+font-family: 'Lato-Medium';
+line-height: normal;
+margin: 12px 0 10px 0;
+text-transform: uppercase;
+width: 100% ;
+}
+.maploctextv{
+color: #071C35;
+text-align: center;
+font-size: calc(0.18vw + 13.2px);
+font-family: 'Lato-Medium';
+line-height: normal;
+margin-bottom: 10px;
+text-transform: uppercase;
+width: 90%              ;
+}
+
+.alls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maps_locationsec {
+    left: calc(22.7vw + 74.7px);
+    top: calc(24.6vw - 126.2px);
+   /* left: 160px;
+    top: -34px; */
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: #FFF;
+    box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.03);
+    height: calc(3.7vw + 145.9px) !important;
+    width: calc(3.7vw + 145.9px) !important;
+}
+.mapslocationthird{
+    top: calc(17.3vw - 140.1px);
+    right: calc(45.9vw - 276.1px);
+    /* top: -75px;
+    right: -104px */
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: calc(3.7vw + 145.9px) !important;
+height: calc(3.7vw + 145.9px) !important;
+justify-content: end;
+} 
+.maps_locationthird{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(3.7vw + 145.9px) !important;
+    width: calc(3.7vw + 145.9px) !important;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: #FFF;
+    box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.03);
+    top: calc(18.9vw - 179.1px);
+    right: calc(42.7vw - 264.2px);
+}
+@media (max-width: 1260px){
+    .project_all{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
